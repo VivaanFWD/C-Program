@@ -1,0 +1,74 @@
+body{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+header{
+    background-color: #333;
+    color: #fff;
+    padding: 1rem;
+    text-align: center;
+}
+
+header:hover{
+    background-color: #eee;
+    color: #333;
+}
+
+
+.flex-container{
+    display: flex;
+    flex-grow: 1;
+}
+
+aside{
+    background-color: #eee;
+    padding: 1rem;
+}
+aside:hover{
+    background-color: #333;
+    color: #eee;
+}
+
+
+main{
+    flex-grow: 1;
+    padding: 1rem;
+}
+
+footer{
+    background-color: #333;
+    color: #fff;
+    padding: 0;
+    text-align: center;
+}
+
+footer:hover{
+    color: #333;
+    background-color: #eee;
+    padding: 1rem;
+
+    
+}
+
+main h3{
+    height: 5px;
+}
+
+hr{
+    height: 2px;
+    background-color: black;
+}
+
+main{
+    background-color: silver;
+}
+
+img{
+    height: 80px;
+    width: 90px;
+}
+
+/*h+ttps,digialm.com//per/g27/pubj/2207/touchstone/AssessmentQPHTMLMode1//2207O2344/2207O2344S5D17034/16783485367191606/4204000647_2207O2344S5D17034E1.html
+*/
